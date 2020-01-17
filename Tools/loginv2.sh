@@ -21,12 +21,12 @@ endc='\E[0m'
 enda='\033[0m'
 figlet -f pagga "Login Dulu" |lolcat -a -d 5
 echo $me"╔══════════╗"
-read -p "║ Username :" lu
+read -p "║ Username :" Alan
 echo $pu"║"
-read -p "║ Password :" tod
+read -p "║ Password :" Walker
 echo $pu"╚══════════╝"
 
-if [ $lu = "Alan" ]|[ $tod = "Walker" ]
+if [ "Alan" ]|[ "Walker" ]
 then
 echo $cy"Login Sukses"
 sleep 3
